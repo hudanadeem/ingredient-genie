@@ -1,7 +1,7 @@
 class RecipeApi{
 
     constructor(){
-        this.apiKey = "85a52c550463450788b18bf59ac4209c";
+        this.apiKey = "e1943de31318405fa85d24e3c42e2856";
         this.baseURL = "https://api.spoonacular.com/recipes/findByIngredients";
     }
     async getRecipes(ingredients){
