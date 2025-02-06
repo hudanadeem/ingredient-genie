@@ -3,9 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>What's For Dinner?</title>
+    <link rel="stylesheet" href="./styles/index.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <script src="./scripts/index-page.js" type="module"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 <body>
-    
+
+    <header class="header">
+        <div class="header__text">
+            <h1 class="header__title">What's for Dinner?</h1>
+            <p class="header__description">Turn your ingredients into delicious recipes with just a click!</p>
+        </div>
+        <img class="header__image" src="./assets/images/header-image.jpg" alt="Header Image">
+    </header>
+
+    <section class="input-section">
+        <h2 class="input-section__title">Generate Recipe</h2>
+        <form id="form" class="form">
+            <textarea class="input-section__textbox" name="ingredients" type="text" placeholder="e.g. tomato, cheese"></textarea>
+            <button class="input-section__button">Get Recipe Ideas</button>
+        </form>
+    </section>
+
+    <footer class="recipe-section" id="recipeSection">
+        <h2 class="recipe-section__title">Recipe Ideas</h2>
+        <div class="recipe-section__list" id="recipeList">
+            <div class="recipe__item"></div>
+            <!-- Recipe ideas will be added here -->
+        </div>
+    </footer>
+
 </body>
 </html>
