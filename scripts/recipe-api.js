@@ -6,7 +6,7 @@ class RecipeApi{
     }
     async getRecipes(ingredients){
         try{
-            const getRecipe = await axios.get(`${this.baseURL}?ingredients=${ingredients}&number=3&apiKey=${this.apiKey}`);
+            const getRecipe = await axios.get(`${this.baseURL}?ingredients=${ingredients}&number=10&apiKey=${this.apiKey}`);
             return getRecipe.data;
         }
         catch(error){
