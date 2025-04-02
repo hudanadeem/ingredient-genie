@@ -55,7 +55,7 @@ cd ingredient-genie
 Inside your JavaScript file (e.g. `script.js`), replace the placeholder with your API key:
 
 ```js
-const API_KEY = "your_spoonacular_api_key_here";
+this.apiKey = "your_spoonacular_api_key_here";
 ```
 
 3. **Run with Live Server**
