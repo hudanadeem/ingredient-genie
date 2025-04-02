@@ -24,43 +24,52 @@ Built in under 5 hours during a hackathon, this project focuses on usability, cl
   </tr>
   <tr>
     <td><img src="https://img.shields.io/badge/Spoonacular%20API-enabled-green?logo=fastapi&logoColor=white" height="20"/> Spoonacular API</td>
-    <td><img src="https://img.shields.io/badge/VSCode%20Live%20Server-used-blue?logo=visualstudiocode" height="20"/> VS Code + Live Server</td>
   </tr>
 </table>
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Getting Started (VS Code)
 
 ### ✅ Prerequisites
 
+Make sure you have the following set up:
+
 - [Visual Studio Code](https://code.visualstudio.com/)
-- **Live Server** extension installed (by Ritwick Dey)
-- Spoonacular API key (free tier)
+- **Live Server** extension (by Ritwick Dey)
+- **Live Sass Compiler** extension (for automatic SCSS to CSS conversion)
 
 ---
 
 ### 📂 Setup Instructions
 
-1. **Clone the repo:**
+1. **Clone the repository:**
 
 ```bash
 git clone https://github.com/hudanadeem/ingredient-genie.git
 cd ingredient-genie
 ```
 
-2. **Add your Spoonacular API key**
+2. **Add your Spoonacular API key:**
 
-Inside your JavaScript file (e.g. `script.js`), replace the placeholder with your API key:
+   - Open the `recipe-api.js` file.
+   - Replace the placeholder with your API key:
 
-```js
-this.apiKey = "your_spoonacular_api_key_here";
-```
+   ```js
+   this.apiKey = "your_spoonacular_api_key_here";
+   ```
 
-3. **Run with Live Server**
-
-- Open the project in VS Code
-- Right-click `index.html` and select **“Open with Live Server”**
-- The site will open at `http://127.0.0.1:5500/`
+3. **Open the folder in VS Code**
 
 ---
+
+### 🔥 Preview the Website
+
+1. Right-click `index.html` and select **“Open with Live Server”**,  
+   _OR_ click the **“Go Live”** button in the bottom-right corner of VS Code.
+
+2. **Ensure Sass is being watched:**
+   - Install the **"Live Sass Compiler"** extension from the VS Code Extensions Marketplace.  
+   - This extension automatically compiles your SCSS files into CSS whenever you make changes.
+
+3. **Click the "Go Live" button** to preview the website and see live updates as you modify your code.
