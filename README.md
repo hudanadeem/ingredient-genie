@@ -11,7 +11,6 @@ Built in under 5 hours during a hackathon, this project focuses on usability, cl
 - 📝 Enter any ingredients you have (e.g., "chicken, rice, broccoli")
 - 🍽️ Instantly fetches 10 recipes that match your ingredients
 - 📎 Each recipe shows ingredients, image, and title
-- 
 ---
 
 ## 🛠 Tech Stack
